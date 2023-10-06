@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE banco [
+<!ELEMENT banco (cliente+, cuenta+, cuenta_cliente+)>
+<!ELEMENT cliente (nombre, apellidos, idcli)>
+<!ELEMENT cuenta (idcu, interes, saldo)>
+<!ELEMENT cuenta_cliente (idcu_, atributos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT idcli (#PCDATA)>
+<!ELEMENT idcu (#PCDATA)>
+<!ELEMENT interes (#PCDATA)>
+<!ELEMENT saldo (#PCDATA)>
+<!ELEMENT idcu_ (#PCDATA)>
+<!ELEMENT atributos (#PCDATA)>
+]>
+
+<banco>
+  <cliente>
+    <nombre>Vito</nombre>
+    <apellidos>Corleone</apellidos>
+    <idcli>380008957489</idcli>
+  </cliente>
+  <cuenta>
+    <idcu>7778905B</idcu>
+    <interes>3%</interes>
+    <saldo>150,000,000</saldo>
+  </cuenta>
+  <cuenta_cliente>
+    <idcu_>38007778</idcu_>
+    <atributos>38007778B</atributos>
+  </cuenta_cliente>
+</banco>

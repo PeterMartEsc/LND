@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inmobiliaria [
+<!ELEMENT inmobiliaria (casa+)>
+<!ELEMENT casa (metros, direccion, propietarios?, precio?)>
+<!ELEMENT metros (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT propietarios (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+]>
+
+<inmobiliaria>
+  <casa>
+    <metros>3000m2</metros>
+    <direccion>C/La Habana</direccion>
+    <propietarios>Sr y Sra Smith</propietarios>
+    <precio>30000 euros</precio>
+  </casa>
+</inmobiliaria>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libreria >
+  <estanteria-1>
+    <libro>Berserk</libro>
+      <autor>Kentaro Miura</autor>
+      <editorial>Animal Jump</editorial>
+ </estanteria-1>
+ <estanteria-2>
+    <libro>El Padrino</libro>
+      <autor>Mario Puzzo</autor>
+      <editorial>Planeta</editorial> 
+ </estanteria-2>
+ <estanteria-3>
+    <libro>Batman#1</libro>
+      <autor>Frank X</autor>
+      <editorial>Norma</editorial>
+ </estanteria-3>
+</libreria>

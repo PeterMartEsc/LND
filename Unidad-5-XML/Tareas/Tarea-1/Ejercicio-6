@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE entrenamiento[
+<!ELEMENT entrenamiento (cliente+)>
+<!ELEMENT cliente (nombre, apellido1, apellido2?, id, sesion*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT sesion (duracion, distancia, localizacion, comentario?)>
+<!ATTLIST sesion pulsaciones CDATA #IMPLIED>
+<!ATTLIST sesion idref CDATA #REQUIRED>
+<!ATTLIST sesion tipo (running | natacion | bicicleta) "running">
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT localizacion (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+]>
+
+<entrenamiento>
+    <cliente>
+      <nombre></nombre>
+      <apellido1></apellido1>
+      <apellido2></apellido2>
+      <id>000000001A</id>
+
+      <sesion pulsaciones="108" idref="000000001A" tipo="running">
+        <duracion></duracion>
+        <distancia></distancia>
+        <localizacion></localizacion>
+        <comentario></comentario>
+      </sesion>
+
+      <sesion pulsaciones="120" idref="000000001A" tipo="running">
+        <duracion></duracion>
+        <distancia></distancia>
+        <localizacion></localizacion>
+        <comentario></comentario>
+      </sesion>
+    </cliente>
+
+    <cliente>
+    <nombre></nombre>
+      <apellido1></apellido1>
+      <id>000000002A</id>
+
+      <sesion idref="000000002A">
+        <duracion></duracion>
+        <distancia></distancia>
+        <localizacion></localizacion>
+        <comentario></comentario>
+      </sesion>
+    </cliente>
+</entrenamiento>

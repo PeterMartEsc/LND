@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE listado [
+<!ELEMENT listado (persona+)>
+<!ELEMENT persona (nombre, apellidos, (hombre | mujer), fecha_de_nacimiento?, direccion+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT hombre EMPTY>
+<!ELEMENT mujer EMPTY>
+<!ELEMENT fecha_de_nacimiento (#PCDATA)>
+<!ATTLIST fecha_de_nacimiento dia CDATA #REQUIRED>
+<!ATTLIST fecha_de_nacimiento mes CDATA #REQUIRED>
+<!ATTLIST fecha_de_nacimiento año CDATA #REQUIRED>
+<!ELEMENT direccion (calle, poblacion, provincia, cp?)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+]>
+
+<listado>
+    <persona>
+      <nombre>Perico</nombre>
+      <apellidos>Corralejo Lejo</apellidos>
+      <hombre />
+      <fecha_de_nacimiento dia="21" mes="Julio" año="2004"></fecha_de_nacimiento>
+      <direccion>
+       <calle>Maxorata</calle>
+       <poblacion>Pinolere</poblacion>
+       <provincia>SC de Tenerife</provincia>
+       <cp>38310</cp> 
+      </direccion>
+    </persona>
+
+    <persona>
+      <nombre>Martina</nombre>
+      <apellidos>Martin Tin</apellidos>
+      <mujer />
+      <direccion>
+        <calle>La Hoya</calle>
+        <poblacion>La Cruz Santa</poblacion>
+        <provincia>SC de Tenerife</provincia>
+      </direccion>
+    </persona>
+</listado>

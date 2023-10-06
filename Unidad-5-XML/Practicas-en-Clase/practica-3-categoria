@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<librería>
+  <categoría>
+    <cocina>
+      <libro>1000 Formas de Preparar Berenjenas</libro>
+    </cocina>
+    <novela>
+      <libros>Los Viajes de Gulliver</libros>
+    </novela>
+    <programación>
+     <libros>Más 100 Bugs y Como Arreglarlos</libros> 
+     <libros>Código Enigma, Cómo Ocurrió Todo</libros>
+    </programación>
+  </categoría>
+</librería>

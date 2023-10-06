@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE planetas SYSTEM 
+“c:/home/dam/PeterMartEsc/LENGUAJE DE MARCAS/Unidad-5-XML/Practicas en Clase/planetas.dtd”>
+<planetas>
+<nombre>Venus</nombre>
+<nombre>Marte</nombre>
+</planetas>
