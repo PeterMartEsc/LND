@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE catalogo[
+<!ELEMENT catalogo (curso+)>
+<!ELEMENT curso (alumno, profesor)>
+<!ELEMENT alumno (nombreA, apellidosA)>
+<!ATTLIST alumno id CDATA #REQUIRED>
+<!ELEMENT nombreA (#PCDATA)>
+<!ELEMENT apellidosA (#PCDATA)>
+<!ELEMENT profesor (nombreB,apellidosB)>
+<!ATTLIST profesor id CDATA #REQUIRED>
+<!ELEMENT nombreB (#PCDATA)>
+<!ELEMENT apellidosB (#PCDATA)>
+<!ENTITY nn "Juan Luís de Todos Los Santos Ramón">
+]>
+
+
+
+<catalogo>
+    <curso>
+      <alumno id="0001">
+        <nombreA>Mauricio</nombreA>
+        <apellidosA>Rodrigez</apellidosA>
+      </alumno>
+      <profesor id="0001">
+        <nombreB>&nn;</nombreB>
+        <apellidosB></apellidosB>
+      </profesor>
+    </curso>
+</catalogo>
