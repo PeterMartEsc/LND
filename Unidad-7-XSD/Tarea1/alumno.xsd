@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="alumnos">
+<xs:complexType>
+      <xs:sequence>
+        <xs:element ref="alumno" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="grupo" type="xs:integer" use="optional"/>
+    </xs:complexType>
+</xs:element>
+  
+  
+  <xs:element name="alumno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="edad" type="xs:integer"/>
+        <xs:element ref="nota" minOccurs="1" maxOccurs="10"/>
+        <xs:element name="telefono" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="dni" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="nota">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name = "eval" type = "xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="plantas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<inventario>
+
+   <laboratorio codigo="28">
+         <nombre>Laboratorios Acme</nombre>
+         <personal>18</personal>
+         <ultimainspeccion>2004</ultimainspeccion>
+         <planta>
+            <nombrecomun>Rosal Rojo</nombrecomun>
+            <nombrebotanico>Rosae Sanguina</nombrebotanico>
+            <clima>Tropical</clima>
+            <luz>Claridad</luz>
+         </planta>
+         <planta>
+            <nombrecomun>Cactus Lemuria</nombrecomun>
+            <nombrebotanico>Ficae Icteris</nombrebotanico>
+            <clima>Desértico</clima>
+            <luz>Claridad</luz>
+         </planta>
+   </laboratorio>
+   <laboratorio codigo="15">
+         <nombre>Medicinal Invest Coorporation</nombre>
+         <personal>82</personal>
+         <ultimainspeccion>2008</ultimainspeccion>
+         <planta>
+            <nombrecomun>Parchita</nombrecomun>
+            <nombrebotanico>Asarum Philnose</nombrebotanico>
+            <clima>Continental</clima>
+            <luz>Penumbra</luz>
+         </planta>
+         <planta>
+            <nombrecomun>Rododendro</nombrecomun>
+            <nombrebotanico>Dicentra cucullaria</nombrebotanico>
+            <clima>Continental</clima>
+            <luz>Penumbra</luz>
+         </planta>
+         <planta>
+            <nombrecomun>Manzana Enana</nombrecomun>
+            <nombrebotanico>Podophyllum peltatum</nombrebotanico>
+            <clima>Tropical</clima>
+            <luz>Claridad</luz>
+         </planta>
+   </laboratorio>
+   
+</inventario>
