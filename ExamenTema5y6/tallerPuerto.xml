@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tallermecanico SYSTEM "/home/petermartesc-dam/Documentos/Pedro/1DAM/LND/ExamenTema5y6/tallermecanico.dtd">
+<tallermecanico>
+    <cliente DNI="78555555A" clientevip="No">
+        <nombre>Javier Delgado</nombre>
+        <coche tipo="Turismo">Opel Astra</coche>
+        <coche tipo="Turismo" combustible="diesel">Ford Mondeo</coche>
+    </cliente>
+    <cliente DNI="X43000000E" clientevip="Si">
+        <nombre>Ana Peroni</nombre>
+        <coche tipo="Todoterreno" combustible="diesel">Toyota Land Cruiser</coche>
+    </cliente>
+</tallermecanico>

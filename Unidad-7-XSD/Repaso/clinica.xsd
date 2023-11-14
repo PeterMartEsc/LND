@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="clinicaveterinaria">
+
+        <xs:complexType>
+        <xs:sequence>
+
+            <xs:element name="Cliente" minOccurs="1" maxOccurs="unbounded">
+
+                <xs:complexType>
+                <xs:sequence>
+
+                    <xs:element name="nombre" type="xs:string"></xs:element>
+                    <xs:element name="apellidos" type="xs:string"></xs:element>
+                    <xs:element name="animal" minOccurs="1" maxOccurs="unbounded">
+
+                        <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="perro" type="xs:string"></xs:element>
+                            <xs:element name="gato" type="xs:string"></xs:element>
+                            <xs:element name="reptil" type="xs:string"></xs:element>
+                        </xs:choice>
+                        </xs:complexType>
+
+                    </xs:element>
+
+                </xs:sequence>
+                </xs:complexType>
+
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="codigo" type="xs:int"></xs:attribute>
+        </xs:complexType>
+        
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clinicaveterinaria xsi:noNamespaceSchemaLocation="clinica.xsd" codigo="015" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Cliente>
+		<nombre>Pedro</nombre>
+		<apellidos>Delgado</apellidos>
+		<animal>
+			<perro sexo="M" vacunado="true">
+				<nombre>Tobi</nombre>
+				<edad>3</edad>
+				<raza>Pitbull</raza>
+				<chip>true</chip>
+			</perro>
+		</animal>
+		<animal>
+			<reptil sexo="H">
+				<nombre>Juana</nombre>
+				<edad>10</edad>
+				<raza>Iguana comun</raza>
+			</reptil>
+		</animal>
+	</Cliente>
+	<Cliente>
+		<nombre>María</nombre>
+		<apellidos>Santana</apellidos>
+		<animal>
+			<gato sexo="H">
+				<nombre>Lola</nombre>
+				<edad>5</edad>
+				<raza>Siamés</raza>
+			</gato>
+		</animal>
+	</Cliente>
+</clinicaveterinaria>

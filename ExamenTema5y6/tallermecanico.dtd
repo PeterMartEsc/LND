@@ -1,0 +1,9 @@
+
+<!ELEMENT tallermecanico (cliente*)>
+<!ELEMENT cliente (nombre, coche+)>
+<!ATTLIST cliente DNI CDATA #REQUIRED>
+<!ATTLIST cliente clientevip (Si|No) "No">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT coche (#PCDATA)>
+<!ATTLIST coche tipo (Turismo|Todoterreno|Comercial|Camion) #REQUIRED>
+<!ATTLIST coche combustible CDATA #FIXED "diesel">
