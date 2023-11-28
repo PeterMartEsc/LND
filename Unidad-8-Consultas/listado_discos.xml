@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listado_discos>
+    <disco tipo="lp">
+        <datos>
+            <solista>Loquillo</solista>
+            <titulo>El ritmo del garaje</titulo>
+        </datos>
+        <descripcion>
+            <cancion>El ritmo del garaje</cancion>
+            <cancion>Cadillac solitario</cancion>
+        </descripcion>
+    </disco>
+    <disco tipo="cd">
+        <datos>
+            <solista>burning</solista>
+            <titulo>directo</titulo>
+            <anio>2003</anio>
+        </datos>
+        <descripcion>
+            <cancion>cancion 1</cancion>
+            <cancion>cancion 2</cancion>
+        </descripcion>
+    </disco>
+</listado_discos>
