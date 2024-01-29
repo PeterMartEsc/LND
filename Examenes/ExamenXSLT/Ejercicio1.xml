@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio1.xsl" type="text/xsl"?>
+
+<ies>
+    <nombre>IES Puerto de la Cruz</nombre>
+    <web>https://.....</web>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nombre>Administración de Sist...</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2009"/>
+        </ciclo>
+        <ciclo id="DAW">
+            <nombre>Desarrollo de Aplicac....</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2010"/>
+        </ciclo>
+        <ciclo id="SMR">
+            <nombre>Sistemas Microinform....</nombre>
+            <grado>Medio</grado>
+            <decretoTitulo año="2008"/>
+        </ciclo>
+    </ciclos>
+</ies>

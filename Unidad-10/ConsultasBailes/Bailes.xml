@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bailes>
+    <baile>
+        <nombre>Break Dance</nombre>
+        <precio moneda="Euros" cuota="Trimestral">75</precio>
+        <comienzo>10/01/2024</comienzo>
+        <fin>20/03/2024</fin>
+        <profesor>El Mickey</profesor>
+        <sala>555</sala>
+        <plazas>10</plazas>
+    </baile>
+    <baile>
+        <nombre>Hip Hop</nombre>
+        <precio moneda="Euros" cuota="Trimestral">70</precio>
+        <comienzo>10/01/2024</comienzo>
+        <fin>20/03/2024</fin>
+        <profesor>Rocky Balboa</profesor>
+        <sala>333</sala>
+        <plazas>10</plazas>
+    </baile>
+    <baile>
+        <nombre>Bachata</nombre>
+        <precio moneda="Euros" cuota="Trimestral">60</precio>
+        <comienzo>01/04/2024</comienzo>
+        <fin>20/06/2024</fin>
+        <profesor>Miguel</profesor>
+        <sala>777</sala>
+        <plazas>15</plazas>
+    </baile>
+    <baile>
+        <nombre>Salsa</nombre>
+        <precio moneda="Euros" cuota="Trimestral">80</precio>
+        <comienzo>01/04/2024</comienzo>
+        <fin>20/06/2024</fin>
+        <profesor>El Macho</profesor>
+        <sala>888</sala>
+        <plazas>15</plazas>
+    </baile>
+</bailes>
