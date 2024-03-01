@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<neptuno>
+  <articulos>
+  <RefArticulo>10</RefArticulo>
+  <ReferenciaProveedor>100</ReferenciaProveedor>
+  <NombreArticulo>huevos</NombreArticulo>
+  <NombreCategoria>alimentación</NombreCategoria>
+  <PrecioUnidad>30</PrecioUnidad>
+  <UnidadesExistencia>40</UnidadesExistencia>
+</articulos>
+<clientes>
+  <RefCliente>1</RefCliente>
+  <NombreCliente>Juan</NombreCliente>
+  <DireccionCliente>Taco</DireccionCliente>
+  <CiudadCliente>París</CiudadCliente>
+  <CodPostalCliente>38206</CodPostalCliente>
+  <PaisCliente>Francia</PaisCliente>
+  <TelefornoCliente>6666666</TelefornoCliente>
+</clientes>
+<proveedores>
+  <ReferenciaProveedor>100</ReferenciaProveedor>
+  <NombreProveedor>David</NombreProveedor>
+  <PaisProveedor>Francia</PaisProveedor>
+</proveedores>
+</neptuno>
