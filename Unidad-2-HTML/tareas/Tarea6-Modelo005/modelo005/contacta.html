@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Paises</title>
+</head>
+<style>
+    title, body {font-family: sheriff}
+</style>
+
+<title>
+    <head>Contacta conmigo</head>
+</title>
+
+<body>
+    <h1>Contacta conmigo....</h1>
+
+    <form>
+        <p>Tu nombre: 
+            <input type=text name="nombre" placeholder="Escriba su nombre" required>
+        </p>
+
+        <p>Tu sexo:</p>
+        <input type="radio" id="mujer" name="sexo">
+        <label for="mujer">Mujer</label><br>
+        <input type="radio" id="hombre" name="sexo">
+        <label for="hombre">Hombre</label><br>
+
+        <p>Estás estudiando: 
+            <select name="Curso">
+                <option value="1">Primero de Desarrollo Multiplataforma</option>
+                <option value="2">Segundo de Desarrollo Multiplataforma</option>
+                <option value="3">Primero de Administración de Sistemas</option>
+                <option value="4">Primero de Administración de Sistemas</option>
+                <option value="5" selected>Primero de Desarrollo Web</option>
+                <option value="6">Segundo de Desarrollo Web</option>
+            </select>
+        </p><br>
+
+        <p>El texto de tu mensaje:</p>
+        <textarea name="mensaje" cols="50"rows="6"></textarea><br><br>
+
+        <input type="submit" name="contactar" value="Contacta Conmigo">
+        
+    </form>
+ 
+</body>
