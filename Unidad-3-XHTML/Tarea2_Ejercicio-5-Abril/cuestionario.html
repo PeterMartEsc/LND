@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+
+<body>
+    <h3>Pedro Martín Escuela</h3>
+
+    <fieldset>
+        <legend style="margin-left: 10px;">Datos del Propietariop></legend>
+
+        <p>Nombre: 
+            <input type=text name="nombre" placeholder="Escriba su nombre" required>
+        </p>
+
+        <p>Sexo:</p>
+
+            <input type="radio" id="hombre" name="sexo" checked>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo">
+            <label for="mujer">Mujer</label><br>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend style="margin-left: 10px;">Datos del Vehículo</legend>
+
+        <p>Marca/Modelo:
+            <input type=text name="marca/modelo" placeholder="Inserte la marca y el modelo" required>
+        </p>
+        <p>Matrícula:
+            <input type="text" name="matricula" placeholder="Inserte la matricula" required>
+        </p>
+        <p> Características:
+            <select size="4" multiple>
+                <option name="utilitario" selected>
+                    Utilitario
+                </option>
+                <option name="utilitario">
+                    Todo Terreno
+                </option>
+                <option name="utilitario" selected>
+                    Alta gama
+                </option>
+            </select>
+        </p>
+        <p>Otros datos:
+            <input type="checkbox" id="servofrenos" name="datos" checked>
+            <label for="servofrenos">Servofrenos</label>
+            <input type="checkbox" id="elevalunas" name="datos" checked>
+            <label for="elevalunas">Elevalunas</label>
+            <input type="checkbox" id="remolque" name="datos">
+            <label for="remolque">Remolque</label>
+        </p>
+
+    </fieldset>
+    <br>
+    <button>Enviar</button>
+</body>
