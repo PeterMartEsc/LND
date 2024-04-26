@@ -1,0 +1,41 @@
+/* 
+span::before{
+    content: ' ';
+}
+span::after{
+    content: ' ';
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    display: block;
+}
+span{
+    display: inline-block;
+}
+*/
+
+
+.navlink:hover::after{
+    content: '';
+
+    width: 100%;
+    height: 3px;
+    background-color: blue;
+
+    display: block;
+
+    animation-name: ampliar-anchura;
+    animation-duration: 1s;
+    
+}
+
+@keyframes ampliar-anchura {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%
+    }
+}
+
+
