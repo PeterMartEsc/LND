@@ -1,0 +1,96 @@
+header, section, footer, aside, nav, main, article, figure{
+    display: block;
+}
+
+
+.contenedorFlex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #F6EBC6;
+
+}
+
+
+p{
+    flex: 0 0 20%;
+    /*flex: 1 0 20%;*/
+    border: 1px solid gray;
+}
+
+/*
+header, section, footer, aside, nav, main, article, figure{
+    display: block;
+}
+
+
+.contenedorFlex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: #F6EBC6;
+}
+
+
+p:not(:nth-of-type(1)){
+    border: 1px solid gray;
+    flex: 1 0 20%;
+}
+
+
+p:nth-of-type(1){
+    border: 1px solid gray;
+    flex: 7 0 20%;
+}
+*/
+
+/*
+header, section, footer, aside, nav, main, article, figure{
+    display: block;
+}
+
+
+.contenedorFlex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: #F6EBC6;
+}
+
+
+p:not(:nth-of-type(2)){
+    border: 1px solid gray;
+    flex: 0 1 400px;
+}
+
+
+p:nth-of-type(2){
+    border: 1px solid gray;
+    flex: 0 5 400px;
+}
+*/
+
+/*
+header, section, footer, aside, nav, main, article, figure{
+    display: block;
+}
+
+
+.contenedorFlex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: #F6EBC6;
+}
+
+
+p{
+    border: 5px solid gray;
+    margin: 3px;
+    flex: 1 0 45%;
+}
+*/

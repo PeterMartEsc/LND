@@ -1,0 +1,20 @@
+header, section, footer, aside, nav, main, article, figure{
+    display: block;
+}
+
+.contenedorFlex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    /*1-justify-content: flex-start;*/
+    /*2-justify-content: flex-end;*/
+    /*3-text-align: right;*/
+    /*4-justify-content: center;*/
+    /*5-justify-content: space-around;*/
+    background: #F6EBC6;
+}
+
+p{
+    max-width: 15%;
+    border: 1px solid gray;
+}

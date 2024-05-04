@@ -4,9 +4,15 @@
     
     
     .contenedorFlex{
+        background: #F6EBC6;
+
+        /*2-height: 400px;*/
+
         display: flex;
         flex-flow: row wrap;
-        background: #F6EBC6;
+        /*1-flex-flow: row-reverse wrap;*/
+        /*2-flex-flow: column wrap;*/
+        /*3-flex-flow: column-reverse wrap;*/
     }
     
     

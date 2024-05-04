@@ -1,0 +1,26 @@
+header, section, footer, aside, nav, main, article, figure{
+    display: block;
+}
+
+.contenedorFlex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #F6EBC6;
+}
+
+p{
+    border: 5px solid gray;
+    margin: 3px;
+    flex: 1 1 15%;
+}
+
+p:nth-of-type(3){
+    align-self: stretch;
+    order: -1;
+}
+
+p:nth-of-type(4){
+    align-self: center;
+}
