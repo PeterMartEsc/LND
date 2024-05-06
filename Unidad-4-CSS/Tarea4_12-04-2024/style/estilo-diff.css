@@ -1,0 +1,15 @@
+h1{
+    font-size: 25px;
+    text-align: center;
+    text-decoration:underline;
+}
+/*Modifica el tercer subelemento, cuenta el div como un elemento 
+ya que está contenido en el ul*/
+li:nth-child(3){
+    color: red;
+}
+
+/*Modifica el 4 subelemento li, ya que está especificado el tipo*/
+li:nth-of-type(4){
+    color: blue;
+}

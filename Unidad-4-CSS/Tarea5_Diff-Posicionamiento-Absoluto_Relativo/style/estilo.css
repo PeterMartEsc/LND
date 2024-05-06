@@ -1,0 +1,99 @@
+/*
+Poner la estructura que se ve con CSS
+
+Tipo de letra Arial
+
+el ancho en las cajas: 20%
+la altura de las cajas: 100px
+
+los colores son los estandar( gray, green,... )
+
+cabecera
+ancho 60%
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+#cabecera{
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    text-align: left;
+
+    border-style: solid;
+    border-color: yellow;
+
+}
+
+h1{
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+#cuerpo{
+    position: relative;
+    background-color: pink;
+}
+
+.caja{
+    width: 20%;
+    height: 100px;
+    background-color: grey;
+    border-style: solid;
+    border-color: blue;
+}
+
+.caja:nth-child(2){
+    position: absolute;
+    left: 178px;
+    top: 0px;
+}
+
+.caja:nth-child(3){
+    position: absolute;
+    left: 355px;
+    top: 0px;
+}
+
+.caja:nth-child(4){
+    position: absolute;
+    left: 533px;
+    top: 0px;
+}
+
+.caja:nth-child(6){
+    background-color: red;
+    z-index: 1;
+    left: 355px;
+    top: 106px;
+}
+
+.caja:nth-child(7){
+    position: absolute;
+    left: 355px;
+    top: 106px;
+}
+
+.caja:nth-child(8){
+    background-color: red;
+    z-index: 1;
+    left: 355px;
+    top: 106px;
+}
+
+.caja:nth-child(9){
+    position: absolute;
+    left: 533px;
+    top: 106px;
+}
+
+#pie{
+    background-color: white;
+    border-style: dotted;
+    border-color: green;
+}
