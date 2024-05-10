@@ -19,7 +19,6 @@ ancho 60%
 
 #cabecera{
     width: 60%;
-    height: 200px;
     background-color: white;
     margin: auto;
     text-align: left;
@@ -67,10 +66,14 @@ h1{
 }
 
 .caja:nth-child(6){
+    position: absolute;
     background-color: red;
+
     z-index: 1;
-    left: 355px;
-    top: 106px;
+    left: calc(20.5% + 40px);
+    top: 66px;
+
+    opacity: 75%;
 }
 
 .caja:nth-child(7){
@@ -80,10 +83,12 @@ h1{
 }
 
 .caja:nth-child(8){
+    position: absolute;
     background-color: red;
     z-index: 1;
-    left: 355px;
-    top: 106px;
+    right: 40px;
+    top: 40px;
+    opacity: 40%;
 }
 
 .caja:nth-child(9){
