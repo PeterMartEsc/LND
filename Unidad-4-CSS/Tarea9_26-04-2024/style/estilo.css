@@ -1,0 +1,39 @@
+/* 
+
+cada elemento li tiene un borde de 1px
+Para radio personalizado de cada elemento se dispone de: border-top-left-radius, border-bottom-left-radius etc;
+El ancho es de 500px
+Los colores de fondo son:
+el que le pase por encima el ratón: #39DE77
+square: #C6BD2D, lower-roman: #677EC1, decimal-leading-zero: #5B886B
+lower-roman tiene modificado el margen izquierdo y con opacidad del 80%
+decimal-leading-zero tiene modificado el padding izquierdo
+
+*/
+
+li{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.primero{
+    background-color: rgb(2, 209, 2);
+}
+
+.square{
+    background-color: rgb(199, 199, 2);
+}
+
+.lower-roman{
+    background-color:rgb(47, 122, 192);
+}
+
+.decimal-leading-zero{
+    background-color: rgb(9, 110, 9);
+}
+
+.none{
+    border-style: solid;
+    border-color: blue;
+    
+}

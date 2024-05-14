@@ -16,7 +16,11 @@ del contenedor. Y así sucesivamente todas, 70 más a la derecha, 70 más abajo
 
 El selector ~ es útil para éste ejercicio. Puedes ver un ejemplo en:
 http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_gen_sibling
-*/         
+*/
+
+/*
+    Author: Pedro Martín Escuela
+*/
 
 .contenedor{
     width: 600px;
@@ -38,7 +42,7 @@ http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_gen_sibling
     color: black;
     opacity: 80%;
 
-    box-shadow: -5px -5px 3px;
+    box-shadow: 5px 5px 3px inset;
 }
 
 .caja:hover {
