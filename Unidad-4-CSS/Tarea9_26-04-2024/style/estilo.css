@@ -16,6 +16,11 @@ li{
     border-width: 1px;
 }
 
+ol{
+    animation-name: tabla;
+    animation-duration: 0.5s;
+}
+
 .primero{
     background-color: rgb(2, 209, 2);
 }
@@ -36,4 +41,13 @@ li{
     border-style: solid;
     border-color: blue;
     
+}
+
+@keyframes tabla {
+    from{
+        height: auto;
+    }
+    to{
+        height: 0;
+    }
 }
