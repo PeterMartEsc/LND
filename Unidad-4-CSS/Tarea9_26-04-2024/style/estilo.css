@@ -16,38 +16,43 @@ li{
     border-width: 1px;
 }
 
-ol{
-    animation-name: tabla;
-    animation-duration: 0.5s;
+li *{
+    display: none;
 }
 
-.primero{
-    background-color: rgb(2, 209, 2);
+li:hover{
+    background-color: #39DE77;
+    display: list-item;
+}
+
+li:hover > *{
+    display: block;
+}
+
+ol li, ul li{
+    display: list-item;
 }
 
 .square{
-    background-color: rgb(199, 199, 2);
+    background-color: #C6BD2D;
+    list-style-type: square;
 }
 
 .lower-roman{
-    background-color:rgb(47, 122, 192);
+    background-color: #677EC1;
+    opacity: 80%;
+    list-style-type: lower-roman;
+
 }
 
 .decimal-leading-zero{
-    background-color: rgb(9, 110, 9);
+    background-color: #5B886B;
+    list-style-type: decimal-leading-zero;
 }
 
 .none{
     border-style: solid;
     border-color: blue;
-    
-}
-
-@keyframes tabla {
-    from{
-        height: auto;
-    }
-    to{
-        height: 0;
-    }
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
