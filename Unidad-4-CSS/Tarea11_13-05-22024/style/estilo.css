@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    border: 1px solid red;
+    display: table-cell;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+section{
+    border: solid 2px white;
+    display: table;
+    height: 400px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#uno, #tres{
+    border: solid 1px green;
+    display: table-cell;
+    width: 15%;
+}
+
+#dos{
+    border: solid 1px yellow;
+    display: table-cell;
+    width: 70%;
+}
+
+@media screen and (max-width: 600px){
+    #uno, #dos, #tres{
+        border: solid 1px green;
+        display: block;
+        height: 300px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
