@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal Wiki</title>
-    <link rel="stylesheet" href="estilos/indexCabecera.css">
+    <link rel="stylesheet" href="estilos/estiloPrincipal.css">
 </head>
 
 <body>
-    <div>
-        <div class="cabecera">
-            <h1>
-                <img class="bordeTop" src="img/Barra-superior.png">
-                <img class="titulo" src="img/title.png">
-                <img class="bordeBot" src="img/Barra-inferior.png">
-            </h1>
-            <h3 >
-                Wiki informativa
-            </h3>
-        </div>
+    <header class="cabecera">
+        <h1>
+            <div class="bordeTop">
+                <img src="img/Barra-superior.png">
+            </div>
+                
+            <img class="titulo" src="img/title.png">
 
-        <div class="contenido1">
+            <div class="bordeBot">
+                <img src="img/Barra-inferior.png">
+            </div>
+            
+        </h1>
+        <h3 >
+            Wiki informativa
+        </h3>
+    </header>
+
+    <main>
+        <div class="contenidoIntro">
             <p class="parrafo1">
                 Blasphemous 2 es un videojuego de accion y plataformas de estética pixel-art, desarrollado por 
                 <a href="https://thegamekitchen.com/">The Game Kitchen</a> y distribuido por <a href="https://www.team17.com/">Team17</a> .
@@ -32,10 +39,14 @@
         </div>
 
         <div class="contenido2">
-            <p class="parrafo2">
+            <p class="caratula">
                 <img class="portada" src="img/Blasphemous_2_cover_art.jpg">
             </p>
         </div>
+    </main>
 
-    </div>
+    <footer>
+        <p>Proyecto final para la asignatura </br> de Lenguaje de Marcas </br> 1º Desarrollo de Aplicaciones Multiplataformas</p>
+    </footer>
+
 </body>
