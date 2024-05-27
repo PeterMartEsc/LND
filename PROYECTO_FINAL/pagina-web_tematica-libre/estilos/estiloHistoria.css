@@ -6,6 +6,14 @@ body{
     height: 5400px;
 }
 
+.hpr{
+    color: rgb(241, 178, 47);
+}
+
+.hpr:visited{
+    color: rgb(241, 178, 47);
+}
+
 a{
     color: black;
 }
@@ -64,15 +72,11 @@ h4{
 
 /*Main*/
 
-.hpr{
-    color: rgb(241, 178, 47);
-}
-
 .contexto{
     background-color: rgb(35, 28, 28);
     color: white;
 
-    width: 520px;
+    width: 580px;
     height: 160px;
 
     position: absolute;
@@ -84,12 +88,38 @@ h4{
     background-color: rgb(35, 28, 28);
     color: white;
 
-    width: 560px;
+    width: 580px;
     height: 190px;
 
     position: absolute;
     left: 30%;
     top: 50%;
+    
+}
+
+.historia1{
+    background-color: rgb(35, 28, 28);
+    color: white;
+
+    width: 580px;
+    height: 150px;
+
+    position: absolute;
+    left: 570px;
+    top: 700px;
+    
+}
+
+.historia2{
+    background-color: rgb(35, 28, 28);
+    color: white;
+
+    width: 580px;
+    height: 220px;
+
+    position: absolute;
+    left: 570px;
+    top: 900px;
     
 }
 
