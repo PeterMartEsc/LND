@@ -71,18 +71,13 @@ h4{
 
 .contacto{
     background-color: rgb(197, 122, 76);
-
     width: 600px;
-
-    position: absolute;
-    left: 450px;
+    margin-left: 35%;
 }
 
 .button{
-    position: absolute;
-    left: 720px;
-
-    top: 660px;
+    margin-top: 40px;
+    margin-left: 45%;
 }
 
 

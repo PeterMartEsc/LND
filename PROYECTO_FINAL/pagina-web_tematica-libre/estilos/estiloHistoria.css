@@ -1,9 +1,17 @@
 body{
     background-color: burlywood;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 
     height: 5400px;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
 }
 
 /*Cabecera*/
@@ -53,6 +61,43 @@ h4{
     text-align: center;
     height: 30px;
 }
+
+/*Main*/
+
+.hpr{
+    color: rgb(241, 178, 47);
+}
+
+.contexto{
+    background-color: rgb(35, 28, 28);
+    color: white;
+
+    width: 520px;
+    height: 160px;
+
+    position: absolute;
+    left: 30%;
+    
+}
+
+.contexto2{
+    background-color: rgb(35, 28, 28);
+    color: white;
+
+    width: 560px;
+    height: 190px;
+
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    
+}
+
+.text{
+    margin: 10px;
+    text-align: justify;
+}
+
 
 /*Pie de página*/
 
