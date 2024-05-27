@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="estilos/estiloContactanos.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>
+            <div class="bordeTop">
+                <img src="img/Barra-superior.png">
+            </div>
+                
+            <img class="titulo" src="img/title.png">
+
+            <div class="bordeBot">
+                <img src="img/Barra-inferior.png">
+            </div>
+            
+        </h1>
+        <h3 >
+            Contactanos
+        </h3>
+        <h4>
+            <a href="index.html">Volver a la Página Principal</a>
+        </h4>
+    </header>
+
+    <main>
+        <div class="contacto">
+            <fieldset>
+                <legend style="margin-left: 10px;">Datos</legend>
+        
+                <p>Nombre: 
+                    <input type=text name="nombre" placeholder="Escriba su nombre" required>
+                </p>
+    
+                <p>Correo electrónico: 
+                    <input type=text name="nombre" placeholder="example@example.com" required>
+                </p>
+        
+                <p>Idioma:</p>
+        
+                    <input type="radio" id="English" name="sexo" checked>
+                    <label for="English">English</label>
+                    <input type="radio" id="Spanish" name="sexo">
+                    <label for="Spanish">Spanish</label>
+                    <input type="radio" id="Portuguese" name="sexo">
+                    <label for="Portuguese">Portuguese</label>
+                    <input type="radio" id="French" name="sexo">
+                    <label for="French">French</label>
+                    <br>
+        
+            </fieldset>
+    
+            <fieldset>
+    
+                <legend style="margin-left: 10px;">Motivos de contacto</legend>
+        
+                <p> Motivos:
+                    <select size="4" multiple>
+                        <option name="utilitario" selected>
+                            Requerimiento de más información
+                        </option>
+                        <option name="utilitario">
+                            Colaboración
+                        </option>
+                        <option name="utilitario">
+                            Otro
+                        </option>
+                    </select>
+                </p>
+                <p>Contacta ud como:
+                    <input type="checkbox" id="Corporativa" name="datos">
+                    <label for="Corporativa">Corporativa</label>
+                    <input type="checkbox" id="Individuo" name="datos">
+                    <label for="Individuo">Individuo independiente</label>
+                    <input type="checkbox" id="Inversor" name="datos">
+                    <label for="Inversor">Inversor</label>
+                </p>
+            </fieldset>
+            
+        </div>
+        <div class="button">
+            <button>Enviar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Proyecto Final para la asignatura 
+            </br>
+            de Lenguaje de Marcas (LND)
+            </br> 
+            1º Desarrollo de Aplicaciones Multiplataformas (DAM)
+            <br>
+            IES Telésforo Bravo
+        </p>
+    </footer>
+</body>
+</html>

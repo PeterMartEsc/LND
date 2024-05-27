@@ -2,10 +2,28 @@ body{
     background-color: burlywood;
     padding: 0;
     margin: 0;
+
+    height: 5400px;
 }
-/*
-Cabecera
-*/
+
+.hpr{
+    color: rgb(241, 178, 47);
+}
+
+.comeBack:visited{
+    color: black;
+}
+
+.comeBack{
+    padding: 8px 0;
+}
+
+.comeBack:hover{
+    border-bottom: 2px solid;
+}
+
+/*Cabecera*/
+
 .cabecera{
     width: 100%;
     text-align: center;
@@ -47,6 +65,11 @@ h3{
     font-size: 30px;
 }
 
+h4{
+    text-align: center;
+    height: 30px;
+}
+
 /*Primer Jefe*/
 
 .primerJefe{
@@ -56,9 +79,11 @@ h3{
     height: 170px;
 
     color: white;
+    text-align: justify;
+
 
     position: absolute;
-    left: 150px;
+    left: 200px;
 }
 
 .jefe1{
@@ -75,7 +100,7 @@ h3{
     height: 316px;
 
     position: absolute;
-    right: 350px;
+    right: 250px;
 }
 
 .img1{
@@ -92,9 +117,9 @@ h3{
     height: 336px;
 
     position: absolute;
-    left: 150px;
+    left: 200px;
 
-    top: 600px;
+    top: 650px;
 
     margin-bottom: 10px;
 }
@@ -113,10 +138,13 @@ h3{
     height: 170px;
 
     color: white;
+    text-align: justify;
+
 
     position: absolute;
-    right: 350px;
-    top: 600px;
+    right: 250px;
+
+    top: 650px;
 }
 
 .jefe2{
@@ -130,13 +158,15 @@ h3{
     background-color: rgb(35, 28, 28);
 
     width: 600px;
-    height: 170px;
+    height: 280px;
 
     color: white;
+    text-align: justify;
+
 
     position: absolute;
-    left: 150px;
-    top: 990px;
+    left: 200px;
+    top: 1040px;
 }
 
 .jefe3{
@@ -153,8 +183,8 @@ h3{
     height: 390px;
 
     position: absolute;
-    right: 350px;
-    top: 990px;
+    right: 250px;
+    top: 1040px;
 
     margin-bottom: 100px;
 }
@@ -170,12 +200,12 @@ h3{
     background-color: rgb(35, 28, 28);
 
     width: 375px;
-    height: 363px;
+    height: 393px;
 
     position: absolute;
-    left: 150px;
+    left: 200px;
 
-    top: 1430px;
+    top: 1490px;
 
     margin-bottom: 10px;    
 }
@@ -194,10 +224,12 @@ h3{
     height: 190px;
 
     color: white;
+    text-align: justify;
+
 
     position: absolute;
-    right: 350px;
-    top: 1430px;
+    right: 250px;
+    top: 1490px;
 }
 
 .jefe4{
@@ -205,16 +237,316 @@ h3{
     font-size: 20px;
 }
 
+/*Quinto Jefe*/
+
+.quintoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 600px;
+    height: 300px;
+
+    color: white;
+    text-align: justify;
+
+
+    position: absolute;
+    left: 200px;
+    top: 1940px;
+}
+
+.jefe5{
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*Img jefe5*/
+
+.imgJefe5Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 375px;
+    height: 333px;
+
+    position: absolute;
+    right: 250px;
+    top: 1940px;
+
+    margin-bottom: 10px;
+}
+
+.img5{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/*Img jefe6*/
+
+.imgJefe6Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 375px;
+    height: 393px;
+
+    position: absolute;
+    left: 200px;
+
+    top: 2330px;
+
+    margin-bottom: 10px;    
+}
+
+.img6{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/*Sexto Jefe*/
+
+.sextoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 600px;
+    height: 190px;
+
+    color: white;
+    text-align: justify;
+
+
+    position: absolute;
+    right: 250px;
+    top: 2330px;
+}
+
+.jefe6{
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*Septimo Jefe*/
+
+.septimoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 580px;
+    height: 190px;
+
+    color: white;
+    text-align: justify;
+
+
+    position: absolute;
+    left: 200px;
+    top: 2780px;
+}
+
+.jefe7{
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*Img jefe7*/
+
+.imgJefe7Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 405px;
+    height: 390px;
+
+    position: absolute;
+    right: 250px;
+    top: 2780px;
+
+    margin-bottom: 10px;
+}
+
+.img7{
+    margin-left: 50px;
+    margin-top: 20px;
+
+    position: relative;
+    right: 40px;
+}
+
+/*Img jefe8*/
+
+.imgJefe8Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 375px;
+    height: 393px;
+
+    position: absolute;
+    left: 200px;
+
+    top: 3230px;
+
+    margin-bottom: 10px;    
+}
+
+.img8{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/*Octavo Jefe*/
+
+.octavoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 600px;
+    height: 210px;
+
+    color: white;
+    text-align: justify;
+
+
+    position: absolute;
+    right: 250px;
+    top: 3230px;
+}
+
+.jefe8{
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*Img jefe9*/
+
+.imgJefe9Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 370px;
+    height: 390px;
+
+    position: absolute;
+    right: 250px;
+    top: 3680px;
+
+    margin-bottom: 10px;
+}
+
+.img9{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+/*Noveno Jefe*/
+
+.novenoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 580px;
+    height: 320px;
+
+    color: white;
+    text-align: justify;
+
+    position: absolute;
+    left: 200px;
+    top: 3680px;
+}
+
+.jefe9{
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*Img jefe10*/
+
+.imgJefe10Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 365px;
+    height: 393px;
+
+    position: absolute;
+    left: 200px;
+
+    top: 4130px;
+
+    margin-bottom: 10px;    
+}
+
+.img10{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*Decimo Jefe*/
+
+.decimoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 600px;
+    height: 310px;
+
+    color: white;
+    text-align: justify;
+
+    position: absolute;
+    right: 250px;
+    top: 4130px;
+}
+
+.jefe10{
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*Img jefe11*/
+
+.imgJefe11Container{
+    background-color: rgb(35, 28, 28);
+
+    width: 460px;
+    height: 640px;
+
+    position: absolute;
+    right: 250px;
+    top: 4580px;
+
+    margin-bottom: 10px;
+}
+
+.img11{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*Undécimo Jefe*/
+
+.undecimoJefe{
+    background-color: rgb(35, 28, 28);
+
+    width: 580px;
+    height: 210px;
+
+    color: white;
+    text-align: justify;
+
+
+    position: absolute;
+    left: 200px;
+    top: 4580px;
+}
+
+.jefe11{
+    margin: 15px;
+    font-size: 20px;
+
+}
+
 /*Pie de página*/
 
 footer{
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    top: 5300px;
 
     width: 100%;
 
     text-align: center;
 
-    padding: 10px 0;
+    padding: 0px 0;
     background-color: rgb(197, 122, 76) ;
 }

@@ -2,11 +2,11 @@ Ideas:
 
 - Blasphemous 2
 
-    - Zonas
     - Jefes
-    - Enemigos
-    - Armas
-    - Nudos
-    - Mejoras
-    - Estatuas
-
+    - Mapa
+    - Historia
+        - Contexto final del otro juego
+        - Situación del Juego
+        - Crisanta
+        - Yerma
+        - Finales
